@@ -6,6 +6,9 @@ RUN apk add --no-cache \
     ripgrep \
     fd \
     build-base \
+    fuse-overlayfs \
+    podman \
+    iptables \
     python3 \
     py3-pip \
     uv \
